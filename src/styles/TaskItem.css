@@ -1,0 +1,50 @@
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    margin: 10px 0;
+    border: 1px solid #bae2ff;
+    border-radius: 5px;
+    background-color: #1d90e2;
+    color: aliceblue;
+}
+
+.task-item.completed {
+    background-color: #0e82d4;
+    color: white;
+}
+
+.task-item span {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.check {
+    background-color: greenyellow;
+    color: white;
+    border: none;
+    border-radius: 10%;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.delete {
+    background-color: crimson;
+    color: white;
+    border: none;
+    border-radius: 10%;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+
+.check:hover {
+    background-color: rgb(186, 255, 83);
+    color: rgba(245, 245, 245, 0.947);
+}
+
+.delete:hover {
+    background-color: rgb(253, 28, 73);
+    color: rgba(245, 245, 245, 0.947);
+}
